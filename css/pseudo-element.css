@@ -1,0 +1,14 @@
+h1::selection {
+    background-color: white;
+    color: black;
+}
+
+p::selection {
+    background-color: aqua;
+    color: brown;
+}
+
+div::selection {
+    background-color: brown;
+    color: aqua;
+}

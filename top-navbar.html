@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="copied from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/top-navbar.css">
+    <script src="scripts/top-navbar.js"></script>
+    <title>Top NavBar</title>
+</head>
+
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <!--
+            Para entender o que o 
+
+                href="javascript:void(0);"
+            
+            faz, veja um explicação em:
+
+            https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-void-function
+        -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div style="padding-left:16px">
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works.</p>
+    </div>
+
+    <h3 id="home">Home</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error molestiae, consequuntur facere harum
+        sed? Odit, pariatur? Libero dignissimos saepe necessitatibus fuga accusamus cumque, ut quod suscipit porro enim
+        sunt.</p>
+
+    <h3 id="news">News</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error molestiae, consequuntur facere harum
+        sed? Odit, pariatur? Libero dignissimos saepe necessitatibus fuga accusamus cumque, ut quod suscipit porro enim
+        sunt.</p>
+
+    <h3 id="contact">Contact</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error molestiae, consequuntur facere harum
+        sed? Odit, pariatur? Libero dignissimos saepe necessitatibus fuga accusamus cumque, ut quod suscipit porro enim
+        sunt.</p>
+
+    <h3 id="about">About</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error molestiae, consequuntur facere harum
+        sed? Odit, pariatur? Libero dignissimos saepe necessitatibus fuga accusamus cumque, ut quod suscipit porro enim
+        sunt.</p>
+</body>
+
+</html>
